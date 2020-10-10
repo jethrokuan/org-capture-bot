@@ -1,0 +1,9 @@
+[package]
+name = "org-capture-bot"
+version = "0.1.0"
+authors = ["Jethro Kuan <jethrokuan95@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+telegram-bot = "0.7"
+tokio = { version = "0.2", features = ["full"] }
